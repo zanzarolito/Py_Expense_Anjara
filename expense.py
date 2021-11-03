@@ -21,9 +21,10 @@ expense_questions = [
 
 
 
-def new_expense():
+def new_expense(*args):
     infos = prompt(expense_questions)
     # Writing the informations on external file might be a good idea ¯\_(ツ)_/¯
     print("Expense Added !")
+    return True
 
 
