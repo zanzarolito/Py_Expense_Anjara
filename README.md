@@ -18,8 +18,10 @@ Ever wondered why Tricount and Splitwise never made a CLI version of their respe
 Code quality and lisibility as well as documentation on how you solved problems will be greatly appreciated/rewarded
 Cheating is allowed, but getting catched isn't
 Creation of new files is recommended. Clean architectures will be rewarded
-A `tests` folder has been created along with a test example. Look at noted documentation in order to learn more about unit testing
+
 ## Todo-list
+
+![Functional View](PyExpensefunc.png)
 
 - [X] A new expense can be added (Mandatory expense information : Amount, label, Spender)
 - [ ] Expense registry is stored in an external file on an appropriate format for persistency (CSV is fine, any other relevant format would be cool)
@@ -28,6 +30,11 @@ A `tests` folder has been created along with a test example. Look at noted docum
 - [ ] When adding a new expense, Spender should be chosen among existing users
 - [ ] An expense can be divided between several existing users. By default, total amount of the expense will be evenly split between all involved users and spender should automatically be checked as involved in the expense
 - [ ] New mandatory expense information : People involved in the expense
+
+![Functional View](PyExpensecomplete.png)
+
+
+![Example](exampleExpense.png)
 - [ ] A status report can be accessed from the main menu, synthesizing who owes who. Every user must appear only once in the report, so you must synthesize reimbursements. 
 Exemple: 3 Users :
 - User1 owes 34,56€ to User2
